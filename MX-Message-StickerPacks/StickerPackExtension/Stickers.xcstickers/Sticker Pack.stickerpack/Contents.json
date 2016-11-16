@@ -1,0 +1,23 @@
+{
+  "stickers" : [
+    {
+      "filename" : "shouye－huang.sticker"
+    },
+    {
+      "filename" : "shouye－kaihei@3x.sticker"
+    },
+    {
+      "filename" : "shouye－peiwowan@3x.sticker"
+    },
+    {
+      "filename" : "shouye-wode.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

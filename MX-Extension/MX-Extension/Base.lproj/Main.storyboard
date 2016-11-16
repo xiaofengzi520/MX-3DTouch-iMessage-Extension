@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MX_Extension" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23:55" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmK-qI-Gh2">
+                                <rect key="frame" x="89.5" y="50" width="196" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PbD-L9-z9s"/>
+                                    <constraint firstAttribute="width" constant="196" id="fOM-XP-c1M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cD6-zO-xen">
+                                <rect key="frame" x="160.5" y="114" width="54" height="30"/>
+                                <color key="backgroundColor" red="0.86640625000000004" green="0.5" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="54" id="pRY-nj-Ypd"/>
+                                    <constraint firstAttribute="height" constant="30" id="qch-uX-3bt"/>
+                                </constraints>
+                                <state key="normal" title="start"/>
+                                <connections>
+                                    <action selector="startTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9xV-W6-Jnp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iie-ep-JjM">
+                                <rect key="frame" x="160.5" y="169" width="54" height="30"/>
+                                <color key="backgroundColor" red="0.40059645460774818" green="0.23186886177879121" blue="0.46636172279792742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="stop"/>
+                                <connections>
+                                    <action selector="stopTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e9D-yx-cg7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iie-ep-JjM" firstAttribute="width" secondItem="cD6-zO-xen" secondAttribute="width" id="C4g-gh-f7T"/>
+                            <constraint firstItem="iie-ep-JjM" firstAttribute="top" secondItem="cD6-zO-xen" secondAttribute="bottom" constant="25" id="K2d-Ko-6AV"/>
+                            <constraint firstItem="iie-ep-JjM" firstAttribute="centerX" secondItem="cD6-zO-xen" secondAttribute="centerX" id="NGe-XY-q3T"/>
+                            <constraint firstItem="hmK-qI-Gh2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Ovm-Ir-Yj6"/>
+                            <constraint firstItem="iie-ep-JjM" firstAttribute="height" secondItem="cD6-zO-xen" secondAttribute="height" id="QD7-Np-Z2j"/>
+                            <constraint firstItem="cD6-zO-xen" firstAttribute="top" secondItem="hmK-qI-Gh2" secondAttribute="bottom" constant="14" id="Vuv-36-Cwc"/>
+                            <constraint firstItem="cD6-zO-xen" firstAttribute="centerX" secondItem="hmK-qI-Gh2" secondAttribute="centerX" id="dRp-Al-gQK"/>
+                            <constraint firstItem="hmK-qI-Gh2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tiq-rM-yFR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="hmK-qI-Gh2" id="WWG-K0-wci"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>

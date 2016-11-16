@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFBEFF51DDAF61600B2A28C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBEFF41DDAF61600B2A28C /* AppDelegate.swift */; };
+		CAFBEFF71DDAF61600B2A28C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBEFF61DDAF61600B2A28C /* ViewController.swift */; };
+		CAFBEFFA1DDAF61600B2A28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFBEFF81DDAF61600B2A28C /* Main.storyboard */; };
+		CAFBEFFC1DDAF61600B2A28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFBEFFB1DDAF61600B2A28C /* Assets.xcassets */; };
+		CAFBEFFF1DDAF61600B2A28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFBEFFD1DDAF61600B2A28C /* LaunchScreen.storyboard */; };
+		CAFBF00A1DDAF61600B2A28C /* MX3DTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBF0091DDAF61600B2A28C /* MX3DTouchTests.swift */; };
+		CAFBF0151DDAF61600B2A28C /* MX3DTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBF0141DDAF61600B2A28C /* MX3DTouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFBF0061DDAF61600B2A28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFBEFE91DDAF61600B2A28C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFBEFF01DDAF61600B2A28C;
+			remoteInfo = MX3DTouch;
+		};
+		CAFBF0111DDAF61600B2A28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFBEFE91DDAF61600B2A28C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFBEFF01DDAF61600B2A28C;
+			remoteInfo = MX3DTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFBEFF11DDAF61600B2A28C /* MX3DTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MX3DTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBEFF41DDAF61600B2A28C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAFBEFF61DDAF61600B2A28C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAFBEFF91DDAF61600B2A28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFBEFFB1DDAF61600B2A28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFBEFFE1DDAF61600B2A28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFBF0001DDAF61600B2A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFBF0051DDAF61600B2A28C /* MX3DTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MX3DTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBF0091DDAF61600B2A28C /* MX3DTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MX3DTouchTests.swift; sourceTree = "<group>"; };
+		CAFBF00B1DDAF61600B2A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFBF0101DDAF61600B2A28C /* MX3DTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MX3DTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFBF0141DDAF61600B2A28C /* MX3DTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MX3DTouchUITests.swift; sourceTree = "<group>"; };
+		CAFBF0161DDAF61600B2A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFBEFEE1DDAF61600B2A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBF0021DDAF61600B2A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBF00D1DDAF61600B2A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFBEFE81DDAF61600B2A28C = {
+			isa = PBXGroup;
+			children = (
+				CAFBEFF31DDAF61600B2A28C /* MX3DTouch */,
+				CAFBF0081DDAF61600B2A28C /* MX3DTouchTests */,
+				CAFBF0131DDAF61600B2A28C /* MX3DTouchUITests */,
+				CAFBEFF21DDAF61600B2A28C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFBEFF21DDAF61600B2A28C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBEFF11DDAF61600B2A28C /* MX3DTouch.app */,
+				CAFBF0051DDAF61600B2A28C /* MX3DTouchTests.xctest */,
+				CAFBF0101DDAF61600B2A28C /* MX3DTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFBEFF31DDAF61600B2A28C /* MX3DTouch */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBEFF41DDAF61600B2A28C /* AppDelegate.swift */,
+				CAFBEFF61DDAF61600B2A28C /* ViewController.swift */,
+				CAFBEFF81DDAF61600B2A28C /* Main.storyboard */,
+				CAFBEFFB1DDAF61600B2A28C /* Assets.xcassets */,
+				CAFBEFFD1DDAF61600B2A28C /* LaunchScreen.storyboard */,
+				CAFBF0001DDAF61600B2A28C /* Info.plist */,
+			);
+			path = MX3DTouch;
+			sourceTree = "<group>";
+		};
+		CAFBF0081DDAF61600B2A28C /* MX3DTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBF0091DDAF61600B2A28C /* MX3DTouchTests.swift */,
+				CAFBF00B1DDAF61600B2A28C /* Info.plist */,
+			);
+			path = MX3DTouchTests;
+			sourceTree = "<group>";
+		};
+		CAFBF0131DDAF61600B2A28C /* MX3DTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBF0141DDAF61600B2A28C /* MX3DTouchUITests.swift */,
+				CAFBF0161DDAF61600B2A28C /* Info.plist */,
+			);
+			path = MX3DTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFBEFF01DDAF61600B2A28C /* MX3DTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBF0191DDAF61600B2A28C /* Build configuration list for PBXNativeTarget "MX3DTouch" */;
+			buildPhases = (
+				CAFBEFED1DDAF61600B2A28C /* Sources */,
+				CAFBEFEE1DDAF61600B2A28C /* Frameworks */,
+				CAFBEFEF1DDAF61600B2A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MX3DTouch;
+			productName = MX3DTouch;
+			productReference = CAFBEFF11DDAF61600B2A28C /* MX3DTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFBF0041DDAF61600B2A28C /* MX3DTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBF01C1DDAF61600B2A28C /* Build configuration list for PBXNativeTarget "MX3DTouchTests" */;
+			buildPhases = (
+				CAFBF0011DDAF61600B2A28C /* Sources */,
+				CAFBF0021DDAF61600B2A28C /* Frameworks */,
+				CAFBF0031DDAF61600B2A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFBF0071DDAF61600B2A28C /* PBXTargetDependency */,
+			);
+			name = MX3DTouchTests;
+			productName = MX3DTouchTests;
+			productReference = CAFBF0051DDAF61600B2A28C /* MX3DTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFBF00F1DDAF61600B2A28C /* MX3DTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFBF01F1DDAF61600B2A28C /* Build configuration list for PBXNativeTarget "MX3DTouchUITests" */;
+			buildPhases = (
+				CAFBF00C1DDAF61600B2A28C /* Sources */,
+				CAFBF00D1DDAF61600B2A28C /* Frameworks */,
+				CAFBF00E1DDAF61600B2A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFBF0121DDAF61600B2A28C /* PBXTargetDependency */,
+			);
+			name = MX3DTouchUITests;
+			productName = MX3DTouchUITests;
+			productReference = CAFBF0101DDAF61600B2A28C /* MX3DTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFBEFE91DDAF61600B2A28C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = muxiao;
+				TargetAttributes = {
+					CAFBEFF01DDAF61600B2A28C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CAFBF0041DDAF61600B2A28C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAFBEFF01DDAF61600B2A28C;
+					};
+					CAFBF00F1DDAF61600B2A28C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAFBEFF01DDAF61600B2A28C;
+					};
+				};
+			};
+			buildConfigurationList = CAFBEFEC1DDAF61600B2A28C /* Build configuration list for PBXProject "MX3DTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFBEFE81DDAF61600B2A28C;
+			productRefGroup = CAFBEFF21DDAF61600B2A28C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFBEFF01DDAF61600B2A28C /* MX3DTouch */,
+				CAFBF0041DDAF61600B2A28C /* MX3DTouchTests */,
+				CAFBF00F1DDAF61600B2A28C /* MX3DTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFBEFEF1DDAF61600B2A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBEFFF1DDAF61600B2A28C /* LaunchScreen.storyboard in Resources */,
+				CAFBEFFC1DDAF61600B2A28C /* Assets.xcassets in Resources */,
+				CAFBEFFA1DDAF61600B2A28C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBF0031DDAF61600B2A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBF00E1DDAF61600B2A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFBEFED1DDAF61600B2A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBEFF71DDAF61600B2A28C /* ViewController.swift in Sources */,
+				CAFBEFF51DDAF61600B2A28C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBF0011DDAF61600B2A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBF00A1DDAF61600B2A28C /* MX3DTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFBF00C1DDAF61600B2A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFBF0151DDAF61600B2A28C /* MX3DTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFBF0071DDAF61600B2A28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFBEFF01DDAF61600B2A28C /* MX3DTouch */;
+			targetProxy = CAFBF0061DDAF61600B2A28C /* PBXContainerItemProxy */;
+		};
+		CAFBF0121DDAF61600B2A28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFBEFF01DDAF61600B2A28C /* MX3DTouch */;
+			targetProxy = CAFBF0111DDAF61600B2A28C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFBEFF81DDAF61600B2A28C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFBEFF91DDAF61600B2A28C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFBEFFD1DDAF61600B2A28C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFBEFFE1DDAF61600B2A28C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFBF0171DDAF61600B2A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFBF0181DDAF61600B2A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFBF01A1DDAF61600B2A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MX3DTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muxiao.MX3DTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CAFBF01B1DDAF61600B2A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MX3DTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muxiao.MX3DTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CAFBF01D1DDAF61600B2A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MX3DTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muxiao.MX3DTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MX3DTouch.app/MX3DTouch";
+			};
+			name = Debug;
+		};
+		CAFBF01E1DDAF61600B2A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MX3DTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muxiao.MX3DTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MX3DTouch.app/MX3DTouch";
+			};
+			name = Release;
+		};
+		CAFBF0201DDAF61600B2A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MX3DTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muxiao.MX3DTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MX3DTouch;
+			};
+			name = Debug;
+		};
+		CAFBF0211DDAF61600B2A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MX3DTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.muxiao.MX3DTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MX3DTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFBEFEC1DDAF61600B2A28C /* Build configuration list for PBXProject "MX3DTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBF0171DDAF61600B2A28C /* Debug */,
+				CAFBF0181DDAF61600B2A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFBF0191DDAF61600B2A28C /* Build configuration list for PBXNativeTarget "MX3DTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBF01A1DDAF61600B2A28C /* Debug */,
+				CAFBF01B1DDAF61600B2A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFBF01C1DDAF61600B2A28C /* Build configuration list for PBXNativeTarget "MX3DTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBF01D1DDAF61600B2A28C /* Debug */,
+				CAFBF01E1DDAF61600B2A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFBF01F1DDAF61600B2A28C /* Build configuration list for PBXNativeTarget "MX3DTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFBF0201DDAF61600B2A28C /* Debug */,
+				CAFBF0211DDAF61600B2A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFBEFE91DDAF61600B2A28C /* Project object */;
+}
